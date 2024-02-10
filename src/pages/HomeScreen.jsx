@@ -1,9 +1,9 @@
 import React from 'react'
-import Header from '../components'
+import {Header} from '../components'
 
 const HomeScreen = () => {
   return (
-    <div className='w-full flex-col items-center justify-center'>
+    <div className='w-full flex flex-col items-center justify-center'>
       <Header/>
       <main>
         {/* custom routes */}
